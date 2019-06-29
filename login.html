@@ -1,0 +1,82 @@
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" >
+		<title>Login/Cadastro</title>
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+			<!-- Links -->
+			<div class="collapse navbar-collapse" id="navb">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="./index.html">Home</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<div class="container" style="margin-bottom: 30px">
+			<br><br>
+			<form action="./perfis.html">
+				<div class="form-group">
+					<label for="email">Email:</label>
+					<input type="email" class="form-control" id="email" placeholder="Digite o email" name="email">
+				</div>
+				<div class="form-group">
+					<label for="pwd">Senha:</label>
+					<input type="password" class="form-control" id="pwd" placeholder="Digite a senha" name="pswd">
+				</div>
+				<div class="form-group form-check">
+					<label class="form-check-label">
+						<input class="form-check-input" type="checkbox" name="remember"> Lembrar e-mail
+				</div>
+				<button type="submit" class="btn btn-primary">Entrar</button>
+				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+					Cadastrar
+				</button>
+				<div class="modal" id="myModal">
+					<div class="modal-dialog">
+						<div class="modal-content">
+
+							<div class="modal-header">
+								<h4 class="modal-title">Criar conta</h4>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+
+							<div class="modal-body">
+								<form action="/action_page.php">
+									<div class="form-group">
+										<label for="email">E-mail:</label>
+										<input type="email" class="form-control" id="email" placeholder="Digite o email" name="email">
+									</div>
+									<div class="form-group">
+										<label for="pwd">Senha:</label>
+										<input type="password" class="form-control" id="pwd" placeholder="Digite a senha" name="pswd">
+									</div>
+									<div class="form-group">
+										<input type="password" class="form-control" id="pwd" placeholder="Confirmar Senha" name="pswd">
+									</div>
+								</form>
+							</div>
+
+							<div class="modal-footer">
+								<button type="submit" class="btn btn-primary" data-dismiss="modal">Cadastrar</button>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+
+
+
+		<!-- jQuery, Popper.js, Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="./bootstrap/js/bootstrap.min.js"></script>
+	</body>
+	</html>

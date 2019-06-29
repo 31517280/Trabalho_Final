@@ -1,0 +1,118 @@
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" >
+		<title>Perfil</title>
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+			<!-- Links -->
+			<div class="collapse navbar-collapse" id="navb">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="./index.html">Home</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<div class="container">
+			<div class="row h-100 justify-content-center align-items-center">
+				<ul class="list-group list-group-horizontal">
+					<li class="list-group-item">
+						<div class="card" style="width:250px">
+							<img class="card-img-top" src="./imgs/img_avatar1.png" alt="Card image" style="width:100%">
+							<div class="card-body">
+								<h4 class="card-title">Vendedor</h4>
+								<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modalVendedor">Ver Perfil</a>
+							</div>
+						</div>
+					</li>
+					<li class="list-group-item">
+						<div class="card" style="width:250px">
+							<img class="card-img-top" src="./imgs/img_avatar1.png" alt="Card image" style="width:100%">
+							<div class="card-body">
+								<h4 class="card-title">Comprador</h4>
+								<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modalComprador">Ver Perfil</a>
+							</div>
+						</div>
+					</li>
+				</ul>   
+			</div>
+			<div class="modal" id="modalVendedor">
+				<div class="modal-dialog modal-lg">
+					<div class="modal-content">
+
+						<div class="modal-header">
+							<h4 class="modal-title">Vendedor</h4>
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+						</div>
+
+						<ul class="list-group list-group-horizontal">
+							<li class="list-group-item">
+								<div class="card" style="width:100px">
+									<img class="card-img-top" src="./imgs/img_avatar1.png" alt="Card image" style="width:100%">
+								</div>
+							</li>
+							<li class="list-group-item">
+								<p>
+									PERFIL DO VENDEDOR
+								</p>
+							</li>
+						</ul>
+						<p style="margin:25px" class="text-justify">
+							Atende clientes, identifica as necessidades e orienta com informações referentes ao veículo. Realiza o fechamento da venda e acompanha as práticas comerciais da concorrência, a fim de identificar oportunidade de novos negócios 
+						</p>
+
+						<div class="modal-footer">
+							<button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+			<div class="modal" id="modalComprador">
+				<div class="modal-dialog modal-lg">
+					<div class="modal-content">
+
+						<div class="modal-header">
+							<h4 class="modal-title">Comprador</h4>
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+						</div>
+
+						<ul class="list-group list-group-horizontal">
+							<li class="list-group-item">
+								<div class="card" style="width:100px">
+									<img class="card-img-top" src="./imgs/img_avatar1.png" alt="Card image" style="width:100%">
+								</div>
+							</li>
+							<li class="list-group-item">
+								<p>
+									PERFIL DO CONSUMIDOR
+								</p>
+							</li>
+						</ul>
+						<p style="margin:25px" class="text-justify">
+							O Consumidor é o que tem acesso a várias opções de escolha de qualquer produto. É toda e qualquer pessoa que visita ou somente procura a empresa com algum interesse em adquirir produtos ou serviços no momento presente ou futuro. Qualquer pessoa que seja impactada pelo produto ou processo, pode-se afirmar que o consumidor é qualquer pessoa que participe do processo, desde a sua concepção até o seu consumo. Importante que seja, mas não só como retórica para atraí-los; é essencial uma estrutura de produção de serviços compatível com as necessidades identificadas, pois a cortesia não sustentará por muito tempo serviços sem qualidade.
+						</p>
+
+						<div class="modal-footer">
+							<button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+		<!-- jQuery, Popper.js, Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="./bootstrap/js/bootstrap.min.js"></script>
+	</body>
+	</html>
